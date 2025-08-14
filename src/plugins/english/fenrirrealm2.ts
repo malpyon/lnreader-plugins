@@ -6,10 +6,10 @@ import { storage } from '@libs/storage';
 
 class FenrirRealmPlugin implements Plugin.PluginBase {
   id = 'fenrir2';
-  name = 'Fenrir Realm2';
+  name = 'FenrirRealm2';
   icon = 'src/en/fenrirrealm/icon.png';
   site = 'https://fenrirealm.com';
-  version = '1.0.9';
+  version = '1.0.85';
   imageRequestInit?: Plugin.ImageRequestInit | undefined = undefined;
 
   hideLocked = storage.get('hideLocked');
